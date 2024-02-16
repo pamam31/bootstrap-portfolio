@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar-toggler {
+    background-color: rgb(76, 76, 76) !important;
+}
+
+
+.container.fluid {
+    width: 100%;
+} 
+
+/* jumbotron */
+.jumbotron {
+    background-image: url('https://raw.githubusercontent.com/pamam31/patG-bootstrap-portfolio/main/Images/jumbotron.jpg');
+    background-size: cover;
+    height: 93vh;
+}
+
+#scroll {
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+    opacity: 80%
+    
+   
+}
+
+.scroll-container {
+    max-height: 600px !important;
+    
+}
+
+
+.nav-item:hover {
+    text-decoration: antiquewhite;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+      
+}
+
+/* #nav-link, #card-title, #card-text:hover {
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+} */
+
+#card-title:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#project-1 {
+    height: 40;
+}
+/* #project-container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+.card:hover {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-text, .card-title {
+    color: black;
+}
+/* about me */
+#aboutme {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-link:hover {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+    
+
